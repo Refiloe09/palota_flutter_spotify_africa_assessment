@@ -1,7 +1,6 @@
 name: flutter_spotify_africa_assessment
 description: Palota Assessment Starter Project - Spotify Africa.
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
+
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
@@ -31,12 +30,23 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_brand_palettes: ^0.5.1
+  google_fonts: ^4.0.4
+  modal_progress_hud_nsn: ^0.4.0
+  flutter_spinkit: ^5.1.0
+  intl: ^0.17.0
+  json_serializable: ^6.2.0
+  json_annotation: ^4.5.0
   package_info_plus: ^4.0.0
   rive: ^0.10.4
   url_launcher: ^6.1.11
+  dropdown_search: ^5.0.5
+  http: ^0.13.6
+  flutter_layout_grid: ^2.0.3
 
 dev_dependencies:
   flutter_lints: ^2.0.0
+  build_runner: ^2.1.11
   flutter_test:
     sdk: flutter
 
